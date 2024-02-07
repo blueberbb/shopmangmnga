@@ -1,0 +1,17 @@
+.setimg-card-img {
+  position: relative;
+  padding-top: 100%;
+  overflow: hidden;
+}
+
+.setimg-card-img img {
+  position: absolute;
+  top: 0;
+  transition: 1s;
+}
+
+.setimg-card-img img:hover {
+  transform: scale(1.1);
+}
+
+
